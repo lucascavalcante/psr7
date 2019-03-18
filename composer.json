@@ -1,0 +1,21 @@
+{
+    "name": "lucas/psr7",
+    "description": "A presentation project to show how PSR7 works.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Cavalcante",
+            "email": "lucascavalcante@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "zendframework/zend-diactoros": "^2.1",
+        "zendframework/zend-httphandlerrunner": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Github\\": "src"
+        }
+    }
+}
